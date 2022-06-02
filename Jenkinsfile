@@ -1,6 +1,6 @@
 node {
     stage('First'){
-        sh 'ls -lrt'
+        sh 'ls'
         echo ' Hello'
     }
 }
